@@ -28,6 +28,6 @@ The application utilizes standard RESTful endpoints for authentication, product 
 ---
 
 ## 🚀 Quick Setup Guide
-1. **Database:** Create a MySQL schema named `shopkart` and update `application.properties`.
+1. **Database:** Create a MySQL schema named `ecommerce` and update `application.properties`.
 2. **Backend:** Run `mvn clean install` and `mvn spring-boot:run` in the backend directory (runs on port 8080).
 3. **Frontend:** Run `npm install` and `npm start` in the frontend directory (runs on port 3000).

@@ -8,10 +8,10 @@
 		<version>4.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.myapplication</groupId>
 	<artifactId>ecommerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ShopKart</name>
+	<name>ecommerce_shop</name>
 	<description>send one html page</description>
 	<url/>
 	<licenses>

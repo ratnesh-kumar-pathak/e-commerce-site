@@ -1,7 +1,0 @@
-services:
-  shopkart-backend:
-    image: shopkart-backend
-    container_name: shopkart-backend
-    ports:
-      - "8081:8080"
-    restart: unless-stopped

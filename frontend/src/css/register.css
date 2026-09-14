@@ -1,0 +1,176 @@
+/* =========================
+   GLOBAL
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+}
+
+/* =========================
+   PAGE CONTAINER
+========================= */
+
+.page-container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+/* =========================
+   REGISTER BOX
+========================= */
+
+.form-container{
+    width:100%;
+    max-width:500px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.form-title{
+    text-align:center;
+    color:#2563eb;
+    font-size:48px;
+    margin-bottom:30px;
+    font-weight:bold;
+}
+
+/* =========================
+   ERROR MESSAGE
+========================= */
+
+.error-message{
+    background:#fee2e2;
+    color:#dc2626;
+    padding:12px;
+    border-radius:8px;
+    margin-bottom:20px;
+    text-align:center;
+    font-size:14px;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.form-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.form-group{
+    margin-bottom:18px;
+}
+
+.form-label{
+    display:block;
+    margin-bottom:8px;
+    color:#1e293b;
+    font-size:16px;
+    font-weight:600;
+}
+
+.form-input,
+.form-select{
+    width:100%;
+    padding:15px;
+    border:2px solid #dbeafe;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    transition:0.3s;
+}
+
+.form-input:focus,
+.form-select:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 10px rgba(37,99,235,0.25);
+}
+
+.form-input::placeholder{
+    color:#94a3b8;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.form-button{
+    width:100%;
+    padding:15px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.form-button:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.form-footer{
+    text-align:center;
+    margin-top:20px;
+    color:#64748b;
+    font-size:15px;
+}
+
+.form-link{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.form-link:hover{
+    text-decoration:underline;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:600px){
+
+    .form-container{
+        padding:25px;
+    }
+
+    .form-title{
+        font-size:38px;
+    }
+
+    .form-input,
+    .form-select{
+        font-size:15px;
+    }
+
+    .form-button{
+        font-size:16px;
+    }
+}

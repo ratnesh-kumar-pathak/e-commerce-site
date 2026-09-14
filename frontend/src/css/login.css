@@ -1,0 +1,190 @@
+/* =========================
+   GLOBAL
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+}
+
+/* =========================
+   LOGIN CONTAINER
+========================= */
+
+.container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    text-align: left; /* Override global text-align: center */
+}
+
+/* =========================
+   LOGIN BOX
+========================= */
+
+.login-box{
+    width:100%;
+    max-width:400px; /* Made smaller */
+    background:#ffffff;
+    border-radius:12px; /* Tighter corners */
+    padding:30px; /* Tighter padding */
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.logo{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px;
+}
+
+.logo-image{
+    width:60px; /* Smaller logo */
+    height:60px;
+    object-fit:contain;
+}
+
+/* =========================
+   HEADING
+========================= */
+
+.login-box h1{
+    text-align:center;
+    color:#2563eb;
+    font-size:28px; /* Smaller heading */
+    margin-bottom:5px;
+}
+
+.login-subtitle{
+    text-align:center;
+    color:#64748b;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+/* =========================
+   FORM
+========================= */
+
+label{
+    display:block;
+    color:#1e293b;
+    font-size:14px; /* Smaller labels */
+    font-weight:600;
+    margin-bottom:5px;
+    text-align: left;
+}
+
+input{
+    width:100%;
+    padding:10px 12px; /* Smaller padding */
+    border:2px solid #dbeafe;
+    border-radius:8px; /* Tighter corners */
+    font-size:14px;
+    outline:none;
+    margin-bottom:15px;
+    transition:0.3s;
+    background-color: #ffffff;
+    color: #1e293b;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+input:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 10px rgba(37,99,235,0.25);
+}
+
+input::placeholder{
+    color:#94a3b8;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button{
+    width:100%;
+    padding:12px; /* Tighter button padding */
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+/* =========================
+   LINKS
+========================= */
+
+.signup-link, .form-footer{
+    text-align:center;
+    margin-top:15px;
+    font-size:14px;
+    color:#64748b;
+}
+
+.signup-link a, .form-link{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.signup-link a:hover, .form-link:hover{
+    text-decoration:underline;
+}
+
+/* =========================
+   ERROR MESSAGE
+========================= */
+
+.error-message{
+    background:#fee2e2;
+    color:#dc2626;
+    padding:10px;
+    border-radius:6px;
+    text-align:center;
+    margin-bottom:15px;
+    font-size:13px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:600px){
+    .login-box{
+        padding:20px;
+    }
+    .login-box h1{
+        font-size:24px;
+    }
+    .login-subtitle{
+        font-size:14px;
+    }
+    .logo-image{
+        width:50px;
+        height:50px;
+    }
+}

@@ -47,7 +47,6 @@ public class User {
 	}
 	
 	public User() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public User(String username, String email, String password, Role role, LocalDateTime createdAt,

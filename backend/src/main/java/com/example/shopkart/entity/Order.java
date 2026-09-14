@@ -32,9 +32,7 @@ public class Order {
     private List<OrderItem> orderItems;
 
     public Order() {
-		// TODO Auto-generated constructor stub
 	}
-    // Getters and setters
 
     public String getOrderId() {
         return orderId;

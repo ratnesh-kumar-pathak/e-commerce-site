@@ -2,7 +2,7 @@ package com.example.shopkart.entity;
 
 
 public enum OrderStatus {
-	 PENDING,
+	 	PENDING,
 	    SUCCESS,
 	    FAILED
 }

@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@SpringBootTest(classes = ShopKartApplication.class)
+@SpringBootTest(classes = ECommerceShopApplication.class)
 public class PaymentServiceTest {
 
     @Autowired private UserRepository userRepository;

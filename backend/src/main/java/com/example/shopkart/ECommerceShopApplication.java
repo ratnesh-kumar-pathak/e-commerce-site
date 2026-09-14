@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication(
         scanBasePackages = "com.example.shopkart"
 )
-public class ShopKartApplication {
+public class ECommerceShopApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(
-                ShopKartApplication.class,
+                ECommerceShopApplication.class,
                 args
         );
     }

@@ -2,8 +2,8 @@ package com.myapplication.ecommerce_shop.service;
 
 
 
-import com.example.shopkart.entity.*;
-import com.example.shopkart.repository.*;
+import com.myapplication.ecommerce_shop.entity.*;
+import com.myapplication.ecommerce_shop.repository.*;
 import com.myapplication.ecommerce_shop.entity.OrderItem;
 import com.myapplication.ecommerce_shop.entity.Product;
 import com.myapplication.ecommerce_shop.entity.ProductImage;
